@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<project version="4" relativePaths="false"> 
+  <component name="ProjectRootManager" version="2" assert-keyword="true" project-jdk-name="1.7" jdk-15="true"/>  
+  <component name="CodeStyleManager"> 
+    <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true"/>  
+    <option name="CODE_STYLE_SCHEME" value=""/> 
+  </component>  
+  <component name="libraryTable"/>  
+  <component name="CompilerConfiguration"> 
+    <option name="DEFAULT_COMPILER" value="Javac"/>  
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false"/>  
+    <!--
+    <wildcardResourcePatterns>
+      <entry name="${wildcardResourcePattern}"/>
+    </wildcardResourcePatterns>
+    -->  
+    <wildcardResourcePatterns>
+      <entry name="!?*.java"/>
+    </wildcardResourcePatterns>
+  </component>  
+  <component name="JavacSettings"> 
+    <option name="DEBUGGING_INFO" value="true"/>  
+    <option name="GENERATE_NO_WARNINGS" value="false"/>  
+    <option name="DEPRECATION" value="true"/>  
+    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
+    <option name="MAXIMUM_HEAP_SIZE" value="128"/>  
+    <option name="USE_GENERICS_COMPILER" value="false"/> 
+  </component>  
+  <component name="JikesSettings"> 
+    <option name="DEBUGGING_INFO" value="true"/>  
+    <option name="DEPRECATION" value="true"/>  
+    <option name="GENERATE_NO_WARNINGS" value="false"/>  
+    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false"/>  
+    <option name="DO_FULL_DEPENDENCE_CHECK" value="false"/>  
+    <option name="IS_INCREMENTAL_MODE" value="false"/>  
+    <option name="IS_EMACS_ERRORS_MODE" value="true"/>  
+    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
+    <option name="MAXIMUM_HEAP_SIZE" value="128"/> 
+  </component>  
+  <component name="AntConfiguration"> 
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>  
+    <option name="FILTER_TARGETS" value="false"/> 
+  </component>  
+  <component name="JavadocGenerationManager"> 
+    <option name="OUTPUT_DIRECTORY"/>  
+    <option name="OPTION_SCOPE" value="protected"/>  
+    <option name="OPTION_HIERARCHY" value="false"/>  
+    <option name="OPTION_NAVIGATOR" value="false"/>  
+    <option name="OPTION_INDEX" value="false"/>  
+    <option name="OPTION_SEPARATE_INDEX" value="false"/>  
+    <option name="OPTION_USE_1_1" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false"/>  
+    <option name="OPTION_DEPRECATED_LIST" value="false"/>  
+    <option name="OTHER_OPTIONS"/>  
+    <option name="HEAP_SIZE"/>  
+    <option name="OPEN_IN_BROWSER" value="false"/> 
+  </component>  
+  <component name="JUnitProjectSettings"> 
+    <option name="TEST_RUNNER" value="UI"/> 
+  </component>  
+  <component name="EntryPointsManager"> 
+    <entry_points/> 
+  </component>  
+  <component name="DataSourceManager"/>  
+  <component name="ExportToHTMLSettings"> 
+    <option name="PRINT_LINE_NUMBERS" value="false"/>  
+    <option name="OPEN_IN_BROWSER" value="false"/>  
+    <option name="OUTPUT_DIRECTORY"/> 
+  </component>  
+  <component name="ImportConfiguration"> 
+    <option name="VENDOR"/>  
+    <option name="RELEASE_TAG"/>  
+    <option name="LOG_MESSAGE"/>  
+    <option name="CHECKOUT_AFTER_IMPORT" value="true"/> 
+  </component>  
+  <component name="ProjectModuleManager"> 
+    <modules> 
+      <!-- module filepath="$$PROJECT_DIR$$/${pom.artifactId}.iml"/ -->  
+      <module filepath="$PROJECT_DIR$/code-samples.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/configure-programmatic/configure-programmatic.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/configure-xml/configure-xml.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/wildcard-configuration/wildcard-configuration.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/multiple-hazelcast-instances/multiple-hazelcast-instances.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/loading-instances/loading-instances.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/unique-names/unique-names.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/destroying-instances/destroying-instances.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/configure-logging/configure-logging.iml"/>
+      <module filepath="$PROJECT_DIR$/learning-basics/learning-basics.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/atomiclong/atomiclong.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/atomiclong-functions/atomiclong-functions.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/atomicreference/atomicreference.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/idgenerator/idgenerator.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/lock/lock.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/condition/condition.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/countdownlatch/countdownlatch.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/semaphore/semaphore.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-primitives/distributed-primitives.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/blockingqueue/blockingqueue.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/boundedblockingqueue/boundedblockingqueue.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/queuestore/queuestore.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/list/list.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/set/set.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/itemlisteners/itemlisteners.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/ringbuffer/ringbuffer.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-collections/distributed-collections.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/basics/basics.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/aggregations/aggregations.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/custom-attributes/custom-attributes.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/backup/backup.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/hashcode-and-equals/hashcode-and-equals.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/criteria-api/criteria-api.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/sqlquery/sqlquery.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/index/index.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/in-memory-format/in-memory-format.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/locking/locking.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/multi-map/multi-map.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/mapstore/mapstore.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/data-locality/data-locality.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/near-cache/near-cache.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/eviction/eviction.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/entry-processor/entry-processor.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/entry-listener/entry-listener.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/partition-lost-listener/partition-lost-listener.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/continuous-query/continuous-query.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/query-collections/query-collections.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/map-interceptor/map-interceptor.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/paging-predicate/paging-predicate.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-map/distributed-map.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/basic-executor/basic-executor.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/scale-up/scale-up.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/scale-out/scale-out.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/executing-on-specific-member/executing-on-specific-member.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/executing-on-key-owner/executing-on-key-owner.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/executing-on-all-members/executing-on-all-members.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/executing-on-lite-members/executing-on-lite-members.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/futures/futures.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/execution-callback/execution-callback.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-executor/distributed-executor.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-topic/basic-pub-sub/basic-pub-sub.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-topic/scaling/scaling.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-topic/reliable-topic/reliable-topic.iml"/>
+      <module filepath="$PROJECT_DIR$/distributed-topic/distributed-topic.iml"/>
+      <module filepath="$PROJECT_DIR$/cluster-quorum/cluster-quorum.iml"/>
+      <module filepath="$PROJECT_DIR$/clients/basic/basic.iml"/>
+      <module filepath="$PROJECT_DIR$/clients/client-rest/clients-rest.iml"/>
+      <module filepath="$PROJECT_DIR$/clients/clients.iml"/>
+      <module filepath="$PROJECT_DIR$/mapreduce/mapreduce.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/port/port.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/multicast/multicast.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/tcpip/tcpip.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/aws/aws.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/groups/group1/group1.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/groups/group2/group2.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/groups/groups.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/partitiongroup/partitiongroup.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/symmetric-encryption/symmetric-encryption.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/ssl/ssl.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/firewall/firewall.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/jclouds/jclouds.iml"/>
+      <module filepath="$PROJECT_DIR$/network-configuration/network-configuration.iml"/>
+      <module filepath="$PROJECT_DIR$/transactions/transaction-basics/transaction-basics.iml"/>
+      <module filepath="$PROJECT_DIR$/transactions/transactional-task/transactional-task.iml"/>
+      <module filepath="$PROJECT_DIR$/transactions/xa-transactions/xa-transactions.iml"/>
+      <module filepath="$PROJECT_DIR$/transactions/transactions.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/bytearray-serializer/bytearray-serializer.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/data-serializable/data-serializable.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/externalizable/externalizable.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/global-serializer/global-serializer.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/hazelcast-instance-aware/hazelcast-instance-aware.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/kryo-serializer/kryo-serializer.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/identified-data-serializable/identified-data-serializable.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/managed-context/managed-context.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/portable/portable.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/serializable/serializable.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/stream-serializer/stream-serializer.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/user-context/user-context.iml"/>
+      <module filepath="$PROJECT_DIR$/serialization/serialization.iml"/>
+      <module filepath="$PROJECT_DIR$/spi/getting-started/getting-started.iml"/>
+      <module filepath="$PROJECT_DIR$/spi/proxy/proxy.iml"/>
+      <module filepath="$PROJECT_DIR$/spi/container/container.iml"/>
+      <module filepath="$PROJECT_DIR$/spi/partition-migration/partition-migration.iml"/>
+      <module filepath="$PROJECT_DIR$/spi/backups/backups.iml"/>
+      <module filepath="$PROJECT_DIR$/spi/discovery/discovery-spi.iml"/>
+      <module filepath="$PROJECT_DIR$/spi/spi.iml"/>
+      <module filepath="$PROJECT_DIR$/performance/partitioning/partitioning.iml"/>
+      <module filepath="$PROJECT_DIR$/performance/performance.iml"/>
+      <module filepath="$PROJECT_DIR$/demo/demo.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/filter-based-session-replication/session-replication.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/hibernate-2ndlevel-cache/hibernate-2ndlevel-cache.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/jca-ra/hazelcast-jca-example.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/spring-cache-manager/spring-cache.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/spring-configuration/HazelcastSpring.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/spring-data-integration/spring-data-integration.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/spring-hibernate-2ndlevel-cache/spring-hibernate.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/enterprise-session-replication/enterprise-session-replication.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/spring-security/spring-security.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/hibernate-jpa-2ndlevel-cache/hibernate-jpa-2ndlevel-cache.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/amazon-ec2-vagrant-chef/amazon-ec2-vagrant-chef.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/mongodb/mongodb-integration.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/spring-jcache/spring-jcache.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/springboot-caching/springboot-caching.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/springboot-caching-jcache/springboot-caching-jcache.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/springaware-annotation/springaware-annotation.iml"/>
+      <module filepath="$PROJECT_DIR$/hazelcast-integration/hazelcast-integration.iml"/>
+      <module filepath="$PROJECT_DIR$/monitoring/cluster/cluster.iml"/>
+      <module filepath="$PROJECT_DIR$/monitoring/monitoring.iml"/>
+      <module filepath="$PROJECT_DIR$/replicated-map/basics/basics.iml"/>
+      <module filepath="$PROJECT_DIR$/replicated-map/in-memory-format/in-memory-format.iml"/>
+      <module filepath="$PROJECT_DIR$/replicated-map/entry-listener/entry-listener.iml"/>
+      <module filepath="$PROJECT_DIR$/replicated-map/replicated-map.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/socket-interceptor/socket-interceptor.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/security-interceptor/security-interceptor.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/hidensity-cache/hidensity-cache.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/wan-replication/wan-replication.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/hd-memory-client-server/hd-memory-examples-server/hd-memory-examples-server.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/hd-memory-client-server/hd-memory-examples-client/hd-memory-examples-client.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/hd-memory-client-server/hd-memory-client-server.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/continuous-query-cache/continuous-query-cache.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/client-ssl/client-ssl.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/hd-imap/hd-imap.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/hot-restart/hot-restart.iml"/>
+      <module filepath="$PROJECT_DIR$/enterprise/enterprise.iml"/>
+      <module filepath="$PROJECT_DIR$/jcache/jcache.iml"/>
+      <module filepath="$PROJECT_DIR$/jmx/jmx.iml"/>
+      <module filepath="$PROJECT_DIR$/osgi/osgi.iml"/>
+      <module filepath="$PROJECT_DIR$/cluster/cluster.iml"/>
+    </modules> 
+  </component>  
+  <UsedPathMacros> 
+    <!--<macro name="cargo"></macro>--> 
+  </UsedPathMacros> 
+</project>
