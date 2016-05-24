@@ -145,9 +145,13 @@ public class Main {
                         // configure write-through to the underlying store
                         .setWriteThrough(true)
                         // configure the javax.cache.integration.CacheLoader
-                        .setCacheLoaderFactory(FactoryBuilder.factoryOf())
+                        .setCacheLoaderFactory(FactoryBuilder.factoryOf(
+                                new UserCacheLoader(userDao)
+                        ))
                         // configure the javax.cache.integration.CacheWriter
-                        .setCacheWriterFactory(new factory(UserCacheWriter.class))
+                        .setCacheWriterFactory(FactoryBuilder.factoryOf(
+                                new UserCacheWriter(userDao)
+                        ))
                         // configure the javax.cache.event.CacheEntryListener with no javax.cache.event.CacheEntryEventFilter,
                         // to include old value and to be executed synchronously
                         .addCacheEntryListenerConfiguration(
@@ -156,9 +160,10 @@ public class Main {
                                         null, true, true
                                 )
                         );
-        CacheIteratorUsage
-//factory managers creating factireis 00000000000000000000000000000000000000
+
+         //factory managers creating factireis 00000000000000000000000000000000000000
         // create the cache called "users" and using the previous configuration
         return cacheManager.createCache("users", config);
     }
 }
+
